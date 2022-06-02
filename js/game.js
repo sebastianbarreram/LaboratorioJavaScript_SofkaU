@@ -80,7 +80,7 @@ function aceptar() {
  */
 function salir() {
     const puntajeJugador = sessionStorage.getItem("score");
-    alert("Te restiraste,Tu puntuación es: " + puntajeJugador);
+    alert("Te restiraste, tu puntuación es: " + puntajeJugador);
     guardarJugador(puntajeJugador);
     location.reload();
 }

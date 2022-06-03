@@ -105,7 +105,7 @@ function mostrarTabla(dataTabla) {
     nivelActual.id = "nivelActual";
 
     let puntaje = document.createElement("div");
-    puntaje.innerText = "Puntos acumlados: 0";
+    puntaje.innerText = "Puntos acumulados: 0";
     puntaje.id = "puntaje";
 
     let premio = document.createElement("div");
